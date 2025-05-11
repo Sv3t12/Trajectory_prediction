@@ -13,7 +13,7 @@ def physics_model(v0, angle, C_d, mass, A=0.01, dt=0.01):
   '''
   import numpy as np
   angle_rad = np.radians(angle)
-  g = 9,80665
+  g = 9.80665
   rho = 1.225
   vx = v0 * np.cos(angle_rad)
   vy = v0 * np.sin(angle_rad)
